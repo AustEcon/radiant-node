@@ -150,6 +150,5 @@ mingw64/
 
 .idea
 cmake-build-debug
-.env
 cmake
 data
