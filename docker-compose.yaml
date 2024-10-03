@@ -6,6 +6,7 @@ services:
     ports:
       - "7332:7332"
       - "7333:7333"
+      - "17443:17443"
     volumes:
       - ./data:/root/.radiant  # Mount local Windows folder ./data to the container's /root/.radiant
     env_file:                     # Load environment variables from the .env file
